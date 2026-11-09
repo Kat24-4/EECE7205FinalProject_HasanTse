@@ -21,7 +21,7 @@ Nashita Hasan, Katherine Tse
 - Team and topic selection
 
 ### Iteration 2
-- Initial documentation (see [*filename*] for further details)
+- Initial documentation (see [Final_Project_Proposal_HasanTse.pdf](https://github.com/Kat24-4/EECE7205FinalProject_HasanTse/blob/main/Final_Project_Proposal_HasanTse.pdf) for further details)
   - Project title
   - Problem statement
   - Proposed solution
