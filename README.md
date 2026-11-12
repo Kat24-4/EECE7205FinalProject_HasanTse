@@ -31,7 +31,7 @@ Nashita Hasan, Katherine Tse
   - Tools and Programming Language decisions
 
 ### Iteration 3
-- Working Prototype (see [Final_Project_Iteration3_HasanTse.pdf]() for further details)
+- Working Prototype (see [Final_Project_Iteration3_HasanTse.pdf](https://github.com/Kat24-4/EECE7205FinalProject_HasanTse/blob/main/docs/Final_Project_Iteration3_HasanTse.pdf) for further details)
   - load input data
   - greedy algorithm
   - build graph
