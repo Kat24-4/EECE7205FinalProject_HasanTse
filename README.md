@@ -30,11 +30,42 @@ Nashita Hasan, Katherine Tse
   - GitHub set-up and plan
   - Tools and Programming Language decisions
 
+### Iteration 3
+- Working Prototype (see [Final_Project_Iteration3_HasanTse.pdf]() for further details)
+  - load input data
+  - greedy algorithm
+  - build graph
+  - assigning rooms and times
+  - save output data
+  - menu for running tests
+
 ## Build Instructions 
-Coming Soon
+To build the project, run the following command in the terminal while in main folder of the project: `g++ src/*.cpp -o scheduler`
 
 ## Run Instructions 
-Coming Soon
+To run the project, run the following command in the terminal after building and follow the prompts: `./scheduler`
 
 ## Example Execution
-Coming Soon
+### Small Sample Execution
+Input:
+
+<img width="1358" height="168" alt="normal" src="https://github.com/user-attachments/assets/784219bb-c868-4149-b205-0a4f55f07de1" />
+
+Run:
+
+<img width="617" height="202" alt="sampleSession1" src="https://github.com/user-attachments/assets/cd5c34fd-42a8-4590-97b8-06c4125669a2" />
+
+Output:
+
+<img width="1456" height="137" alt="normalOutput" src="https://github.com/user-attachments/assets/16091098-71aa-4627-8519-ac96e58bf8a8" />
+
+### Large Sample Execution 
+Input: see "large.csv" in the `data` folder for large input data 
+
+Run:
+
+<img width="606" height="220" alt="sampleSession2" src="https://github.com/user-attachments/assets/603cbdc4-cac8-4384-a5d6-36b402a4c332" />
+
+
+Output: see "largeOutput.csv" in the `data` for the output
+
