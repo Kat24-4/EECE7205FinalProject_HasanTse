@@ -2,11 +2,9 @@
 #include <algorithm>
 
 #include "graph.h"
+#include "limitations.h"
 
 using namespace std;
-
-const int NUM_TIME_SLOTS = 12;
-const int TOTAL_ROOMS = 100; 
 
 Graph::Graph(int v) : adjList(v) {
     numV = v;
@@ -27,6 +25,7 @@ vector<int> Graph::GreedyColor() {
 
     vector<bool> availableColors(NUM_TIME_SLOTS);
     vector<int> roomsTaken(NUM_TIME_SLOTS);
+    roomsTaken[0]++;
 
     for (int j = 1; j < numV; j++) {
         fill(availableColors.begin(), availableColors.end(), true);
@@ -38,10 +37,14 @@ vector<int> Graph::GreedyColor() {
         }
 
         int color; 
-        for (color = 0; color < numV; color++) {
+        for (color = 0; color < NUM_TIME_SLOTS; color++) {
             if (availableColors[color] && roomsTaken[color] < TOTAL_ROOMS) {
                 break; 
             }
+        }
+
+        if (color == NUM_TIME_SLOTS) {
+            return {};
         }
 
         results[j] = color; 

@@ -7,12 +7,10 @@
 
 #include "course.h"
 #include "graph.h"
+#include "limitations.h"
 
 using namespace std;
 
-
-const int NUM_TIME_SLOTS = 12;
-const int TOTAL_ROOMS = 100; 
 const vector<string> TIMES = {
     "8-8:50am", "9-9:50am", "10-10:50am", "11-11:50am",
     "12-12:50pm", "1-1:50pm", "2-2:50pm", "3-3:50pm",
@@ -184,6 +182,7 @@ int main() {
     cout << "\t2: Boundary Input" << endl; 
     cout << "\t3: Invalid Input" << endl; 
     cout << "\t4: Empty Input" << endl; 
+    cout << "\t5: Large Input" << endl;
 
     int numCase; 
     string fileName;
@@ -200,8 +199,9 @@ int main() {
             case 2: fileName = "data/boundary.csv"; break;
             case 3: fileName = "data/invalid.csv";  break;
             case 4: fileName = "data/empty.csv";    break;
+            case 5: fileName = "data/large.csv";    break;
             default:
-                cout << "Invalid Selection. Please Select (1-4): " << endl;
+                cout << "Invalid Selection. Please Select (1-5): " << endl;
         }
     }
 
@@ -221,6 +221,11 @@ int main() {
 
     Graph g = makeGraphFromCourses(courses);
     vector<int> colors = g.GreedyColor();
+
+    if (colors.empty()) {
+        cout << "Could not find a solution with the current number of rooms and timeslots available." << endl; 
+        return 1; 
+    }
 
     assignRoomsAndTimes(courses, colors);
     writeFile(courses);
