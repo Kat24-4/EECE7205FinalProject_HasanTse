@@ -38,6 +38,14 @@ Nashita Hasan, Katherine Tse
   - assigning rooms and times
   - save output data
   - menu for running tests
+ 
+## Program Limitations
+At this time, we recognize the following limitations with our current implementation: 
+
+- The program requires that professor and student names be typed exactly the same in order to find a match. This means that if there is an extra space between a first and a last name, or if capitalization is off, the program will not flag the overlap.
+- The program does not optimize the time table. This means that the courses will be assigned to the earliest time possible which creates a morning heavy schedule.
+- The program currently only runs with a CSV file input. Other file formats are not supported.
+- Since the program uses the greedy algorithm there is a chance that the program can report not finding a solution when there is one.
 
 ## Build Instructions 
 To build the project, run the following command in the terminal while in main folder of the project: `g++ src/*.cpp -o scheduler`
