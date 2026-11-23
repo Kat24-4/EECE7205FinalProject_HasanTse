@@ -53,3 +53,50 @@ vector<int> Graph::GreedyColor() {
 
     return results; 
 }
+
+bool Graph::BacktrackingUtil(vector<int>& results, int toColor, vector<int>& roomsTaken) {
+    if (toColor == numV) {
+        return true;
+    }
+
+    for (int color = 0; color < NUM_TIME_SLOTS; color++) {
+
+        bool available = true; 
+
+        for (const auto& adj: adjList[toColor]) {
+            if (results[adj] == color) {
+                available = false; 
+                break; 
+            }
+        }
+
+        if (available && roomsTaken[color] < TOTAL_ROOMS) {
+            results[toColor] = color; 
+            roomsTaken[color]++;
+
+            if(BacktrackingUtil(results, toColor + 1, roomsTaken)) {
+                return true; 
+            }
+
+            results[toColor] = -1; 
+            roomsTaken[color]--;
+        }
+    }
+
+    return false; 
+}
+
+vector<int> Graph::BacktrackingColor() {
+    vector<int> results(numV);
+    for (int i = 0; i < numV; i++) {
+        results[i] = -1; 
+    }
+
+    vector<int> roomsTaken(NUM_TIME_SLOTS);
+
+    if (BacktrackingUtil(results, 0, roomsTaken) == false) {
+        return {}; 
+    }
+
+    return results; 
+}

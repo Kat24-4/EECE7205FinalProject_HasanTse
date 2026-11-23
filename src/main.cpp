@@ -172,17 +172,18 @@ void writeFile(vector<Course*>& courses) {
 
     saveFile.close();
 
-    cout << "Your generated schedule can be found in \"schedule.csv\" file!" << endl; 
+    cout << "Your generated schedule can be found in the \"schedule.csv\" file!" << endl; 
 }
 
 int main() {
     cout << "Welcome to Course and Exam Scheduler!" << endl; 
-    cout << "Select a test case to generate a schedule from: " << endl;
-    cout << "\t1: Normal Input" << endl; 
+    cout << "Select a scenario to generate a schedule from: " << endl;
+    cout << "\t1: Small Normal Input" << endl; 
     cout << "\t2: Boundary Input" << endl; 
     cout << "\t3: Invalid Input" << endl; 
     cout << "\t4: Empty Input" << endl; 
     cout << "\t5: Large Input" << endl;
+    cout << "\t6: Upload Your Own File" << endl; 
 
     int numCase; 
     string fileName;
@@ -200,14 +201,29 @@ int main() {
             case 3: fileName = "data/invalid.csv";  break;
             case 4: fileName = "data/empty.csv";    break;
             case 5: fileName = "data/large.csv";    break;
+            case 6: {
+                string temp; 
+                cout << "Create a CSV file or ensure that your current CSV file's lines have the following structure -" << endl;
+                cout << "\t[name of class,name of professor,\"list of student names seperated by comma\"]" << endl; 
+                cout << "\tExample -> (BB101 Intro to Biology,John Doe,\"Jane Doe, Bob Doe, Alice Doe\")" << endl;
+                cout << "Then, drag and drop your CSV file into the \"data\" folder of this project." << endl; 
+                cout << "Press Enter when complete." << endl; 
+                cin.clear();
+                cin.ignore(10000, '\n');  
+                cin.get();
+                cout << "Enter the name of the file (include the .csv at the end, \"example.csv\"): "; 
+                cin >> temp; 
+                fileName = "data/" + temp; 
+                break; 
+            }
             default:
-                cout << "Invalid Selection. Please Select (1-5): " << endl;
+                cout << "Invalid Selection. Please Select (1-6): " << endl;
         }
     }
 
     ifstream file(fileName);
     if (!file.is_open()) {
-        cout << "Could Not Open Input File." << endl;
+        cout << "Could Not Find or Open Input File." << endl;
         return 1;
     }
 
@@ -223,7 +239,7 @@ int main() {
     vector<int> colors = g.GreedyColor();
 
     if (colors.empty()) {
-        cout << "Could not find a solution with the current number of rooms and timeslots available." << endl; 
+        cout << "Could not find a solution with the current number of rooms and time slots available." << endl; 
         return 1; 
     }
 
