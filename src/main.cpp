@@ -396,8 +396,9 @@ int main() {
     cout << "\t3: Invalid Input" << endl; 
     cout << "\t4: Empty Input" << endl; 
     cout << "\t5: Large Input" << endl;
-    cout << "\t6: Upload Your Own File" << endl; 
-    cout << "\t7: Algorithm Comparison Experiement" << endl; 
+    cout << "\t6: Failure Input" << endl; 
+    cout << "\t7: Upload Your Own File" << endl; 
+    cout << "\t8: Algorithm Comparison Experiement" << endl; 
 
     int numCase; 
     string fileName;
@@ -410,12 +411,13 @@ int main() {
         }
 
         switch (numCase) {
-            case 1: fileName = "data/normal.csv";   break;
-            case 2: fileName = "data/boundary.csv"; break;
-            case 3: fileName = "data/invalid.csv";  break;
-            case 4: fileName = "data/empty.csv";    break;
-            case 5: fileName = "data/large.csv";    break;
-            case 6: {
+            case 1: fileName = "data/normal.csv";       break;
+            case 2: fileName = "data/boundary.csv";     break;
+            case 3: fileName = "data/invalid.csv";      break;
+            case 4: fileName = "data/empty.csv";        break;
+            case 5: fileName = "data/large.csv";        break;
+            case 6: fileName = "data/failure1000.csv"; break;
+            case 7: {
                 string temp; 
                 cout << "Create a CSV file or ensure that your current CSV file's lines have the following structure -" << endl;
                 cout << "\t[name of class,name of professor,\"list of student names seperated by comma\"]" << endl; 
@@ -430,7 +432,7 @@ int main() {
                 fileName = "data/" + temp; 
                 break; 
             }
-            case 7: return algoExperiment();
+            case 8: return algoExperiment();
             default:
                 cout << "Invalid Selection. Please Select (1-6): " << endl;
         }

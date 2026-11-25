@@ -38,8 +38,17 @@ Nashita Hasan, Katherine Tse
   - assigning rooms and times
   - save output data
   - menu for running tests
- 
-## Program Limitations
+
+### Iteration 4
+- Complete Application and Algorithm Evaluation (see [Final_Project_Iteration4_HasanTse.pdf]() for further details)
+  - backtracking algorithm
+  - instructions and capabilites for user uploaded data files
+  - algorithm comparison and evaluation
+
+## Program Strengths and Limitations
+The strengths of our program is as follows: 
+- [add strenths once final algorithm decided on]
+
 At this time, we recognize the following limitations with our current implementation: 
 
 - The program requires that professor and student names be typed exactly the same in order to find a match. This means that if there is an extra space between a first and a last name, or if capitalization is off, the program will not flag the overlap.
@@ -52,6 +61,37 @@ To build the project, run the following command in the terminal while in main fo
 
 ## Run Instructions 
 To run the project, run the following command in the terminal after building and follow the prompts: `./scheduler`
+
+## Sample datasets
+Sample datasets can be found in the `/data` folder of the project. There you can find the following datasets and scenarios: 
+- `boundary.csv` : a small (3 course) example where all of the provided courses overlap
+- `empty.csv` : an empty csv file to test error handling 
+- `failure1000.csv` : a large example where greedy does not find a solution and backtracking functionally runs forever
+- `invalid.csv` : a csv file with the incorrect number of feilds to check error handling 
+- `large.csv` : a large (1000 course) example that a schedule can be generated from, also used in the algorithm comparison experiment  
+- `normal.csv` : a small (3 course) example with two overlapping classes  
+- `TestCase_50.csv` : a 50 course example used for the algorithm comparison experiment 
+- `TestCase_500.csv` : a 500 course example used for the algorithm comparison experiment
+
+All of these datasets can be tried by selecting the corresponding item through the menu that pops up when you first run the application. 
+
+## Algorithm Experiment 
+### About the Experiment 
+To test the differences between Greedy Coloring and Backtracking Coloring, execution time and memory consumption was measured for both algorithms on three different input sizes (50 courses, 500 courses, 1000 courses).
+
+To see full details, see "Section 3: Experimental Evaluation" of the [Final_Project_Iteration4_HasanTse.pdf]() in the `/docs` folder.
+
+### Experiement Results 
+#### Time Comparison Results 
+
+#### Memory Consumption Results 
+
+#### Conclusion 
+
+### How to Recreate the Results
+To run the Algorithm Experiment, follow the build and run instructions and select `8` once prompted to select from the menu. 
+
+You should expect an output like this: 
 
 ## Example Execution
 ### Small Sample Execution
