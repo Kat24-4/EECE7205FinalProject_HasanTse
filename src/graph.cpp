@@ -1,5 +1,6 @@
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 #include "graph.h"
 #include "limitations.h"
@@ -8,6 +9,7 @@ using namespace std;
 
 Graph::Graph(int v) : adjList(v) {
     numV = v;
+    lastCallCount = 0;
 }
 
 void Graph::AddEdge(int v1, int v2) {
@@ -54,7 +56,7 @@ vector<int> Graph::GreedyColor() {
     return results; 
 }
 
-bool Graph::BacktrackingUtil(vector<int>& results, int toColor, vector<int>& roomsTaken) {
+bool Graph::BacktrackingUtil(vector<int>& results, int toColor, vector<int>& roomsTaken, long long& timesRun) {
     if (toColor == numV) {
         return true;
     }
@@ -74,7 +76,8 @@ bool Graph::BacktrackingUtil(vector<int>& results, int toColor, vector<int>& roo
             results[toColor] = color; 
             roomsTaken[color]++;
 
-            if(BacktrackingUtil(results, toColor + 1, roomsTaken)) {
+            timesRun++;
+            if(BacktrackingUtil(results, toColor + 1, roomsTaken, timesRun)) {
                 return true; 
             }
 
@@ -93,10 +96,13 @@ vector<int> Graph::BacktrackingColor() {
     }
 
     vector<int> roomsTaken(NUM_TIME_SLOTS);
+    long long timesRun = 1;
 
-    if (BacktrackingUtil(results, 0, roomsTaken) == false) {
+    if (BacktrackingUtil(results, 0, roomsTaken, timesRun) == false) {
         return {}; 
     }
+
+    lastCallCount = timesRun; 
 
     return results; 
 }

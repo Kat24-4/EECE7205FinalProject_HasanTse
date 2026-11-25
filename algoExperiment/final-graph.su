@@ -1,0 +1,121 @@
+/usr/include/c++/15/bits/stl_algobase.h:1024:3:constexpr long unsigned int std::__size_to_integer(long unsigned int)	16	static
+/usr/include/c++/15/new:206:7:void* operator new(std::size_t, void*)	16	static
+/usr/include/c++/15/new:217:13:void operator delete(void*, void*)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:96:5:std::_Bit_reference::_Bit_reference(std::_Bit_type*, std::_Bit_type)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:105:5:std::_Bit_reference::operator bool() const	16	static
+/usr/include/c++/15/bits/stl_bvector.h:110:5:std::_Bit_reference& std::_Bit_reference::operator=(bool)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:201:5:std::_Bit_iterator_base::_Bit_iterator_base(std::_Bit_type*, unsigned int)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:230:5:void std::_Bit_iterator_base::_M_incr(std::ptrdiff_t)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:298:5:std::ptrdiff_t std::operator-(const _Bit_iterator_base&, const _Bit_iterator_base&)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:319:5:std::_Bit_iterator::_Bit_iterator()	32	static
+/usr/include/c++/15/bits/stl_bvector.h:322:5:std::_Bit_iterator::_Bit_iterator(std::_Bit_type*, unsigned int)	48	static
+/usr/include/c++/15/bits/stl_bvector.h:374:5:std::_Bit_iterator::iterator& std::_Bit_iterator::operator+=(std::iterator<std::random_access_iterator_tag, bool>::difference_type)	32	static
+/usr/include/c++/15/bits/stl_bvector.h:395:5:std::_Bit_iterator::iterator std::operator+(const _Bit_iterator::iterator&, iterator<random_access_iterator_tag, bool>::difference_type)	96	static
+/usr/include/c++/15/bits/stl_bvector.h:432:5:std::_Bit_const_iterator::_Bit_const_iterator(std::_Bit_type*, unsigned int)	48	static
+/usr/include/c++/15/bits/stl_bvector.h:436:5:std::_Bit_const_iterator::_Bit_const_iterator(const std::_Bit_iterator&)	32	static
+/usr/include/c++/15/bits/stl_bvector.h:1775:3:void std::__fill_bvector(_Bit_type*, unsigned int, unsigned int, bool)	16	static
+/usr/include/c++/15/bits/stl_bvector.h:1792:3:void std::__fill_bvector_n(_Bit_type*, size_t, bool)	48	static
+/usr/include/c++/15/bits/stl_bvector.h:1808:3:void std::__fill_a1(_Bit_iterator, _Bit_iterator, const bool&)	80	static
+src/graph.cpp:10:1:Graph::Graph(int)	80	static
+src/graph.cpp:15:6:void Graph::AddEdge(int, int)	32	static
+/usr/include/c++/15/bits/stl_vector.h:139:14:std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()	48	static
+/usr/include/c++/15/bits/stl_vector.h:321:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:561:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:344:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::_Vector_base<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:650:7:std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+src/graph.cpp:20:13:std::vector<int> Graph::GreedyColor()	336	static
+src/graph.cpp:59:6:bool Graph::BacktrackingUtil(std::vector<int>&, int, std::vector<int>&, long long int&)	144	static
+src/graph.cpp:92:13:std::vector<int> Graph::BacktrackingColor()	144	static
+/usr/include/c++/15/bits/stl_vector.h:586:7:std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	64	static
+/usr/include/c++/15/bits/stl_vector.h:1261:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](size_type) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	32	static
+/usr/include/c++/15/bits/stl_vector.h:1416:7:void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]	112	static
+/usr/include/c++/15/bits/stl_vector.h:586:7:std::vector<_Tp, _Alloc>::vector(size_type, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:800:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:1261:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](size_type) [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_bvector.h:800:7:std::vector<bool, _Alloc>::vector(size_type, const allocator_type&) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:926:7:std::vector<bool, _Alloc>::~vector() [with _Alloc = std::allocator<bool>]	32	static
+/usr/include/c++/15/bits/stl_bvector.h:1065:7:std::vector<bool, _Alloc>::iterator std::vector<bool, _Alloc>::begin() [with _Alloc = std::allocator<bool>]	96	static
+/usr/include/c++/15/bits/stl_bvector.h:1075:7:std::vector<bool, _Alloc>::iterator std::vector<bool, _Alloc>::end() [with _Alloc = std::allocator<bool>]	16	static
+/usr/include/c++/15/bits/stl_vector.h:998:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:1018:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:1156:7:std::vector<bool, _Alloc>::reference std::vector<bool, _Alloc>::operator[](size_type) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:143:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = int; _Alloc = std::allocator<int>]	48	static
+/usr/include/c++/15/bits/stl_vector.h:373:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:160:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(std::_Vector_base<_Tp, _Alloc>::_Vector_impl&&) [with _Tp = int; _Alloc = std::allocator<int>]	80	static
+/usr/include/c++/15/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = std::vector<int>]	16	static
+/usr/include/c++/15/bits/stl_vector.h:2213:7:static std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_S_check_init_len(size_type, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	96	static
+/usr/include/c++/15/bits/stl_vector.h:139:14:std::_Vector_base<std::vector<int>, std::allocator<std::vector<int> > >::_Vector_impl::~_Vector_impl()	48	static
+/usr/include/c++/15/bits/stl_vector.h:339:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	64	static
+/usr/include/c++/15/bits/stl_vector.h:373:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	32	static
+/usr/include/c++/15/bits/stl_vector.h:2008:7:void std::vector<_Tp, _Alloc>::_M_default_initialize(size_type) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	32	static
+/usr/include/c++/15/bits/stl_vector.h:307:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	16	static
+/usr/include/c++/15/bits/stl_vector.h:1117:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	16	static
+/usr/include/c++/15/bits/vector.tcc:557:7:) [with _Args = {const int&}; _Tp = int; _Alloc = std::allocator<int>]	240	static
+/usr/include/c++/15/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = int]	16	static
+/usr/include/c++/15/bits/stl_vector.h:2213:7:static std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_S_check_init_len(size_type, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]	96	static
+/usr/include/c++/15/bits/stl_vector.h:339:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:2008:7:void std::vector<_Tp, _Alloc>::_M_default_initialize(size_type) [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:307:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/stl_vector.h:1117:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = bool]	16	static
+/usr/include/c++/15/bits/stl_bvector.h:805:7:std::vector<bool, _Alloc>::vector(size_type, const bool&, const allocator_type&) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:596:14:std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()	48	static
+/usr/include/c++/15/bits/stl_bvector.h:675:7:std::_Bvector_base<_Alloc>::~_Bvector_base() [with _Alloc = std::allocator<bool>]	32	static
+/usr/include/c++/15/bits/stl_bvector.h:1127:7:std::vector<bool, _Alloc>::size_type std::vector<bool, _Alloc>::size() const [with _Alloc = std::allocator<bool>]	80	static
+/usr/include/c++/15/bits/stl_vector.h:105:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_Vector_impl_data() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/stl_vector.h:392:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(pointer, std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	80	static
+/usr/include/c++/15/bits/stl_vector.h:111:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_Vector_impl_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&&) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/stl_algobase.h:234:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long unsigned int]	16	static
+/usr/include/c++/15/bits/stl_vector.h:2222:7:static std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_S_max_size(const _Tp_alloc_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	80	static
+/usr/include/c++/15/bits/stl_vector.h:152:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	64	static
+/usr/include/c++/15/bits/stl_vector.h:403:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	32	static
+/usr/include/c++/15/bits/stl_vector.h:392:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(pointer, std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	80	static
+/usr/include/c++/15/bits/stl_uninitialized.h:1000:5:_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, allocator<_Tp2>&) [with _ForwardIterator = vector<int>*; _Size = long unsigned int; _Tp = vector<int>]	48	static
+/usr/include/c++/15/bits/stl_construct.h:219:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = vector<int>*]	48	static
+/usr/include/c++/15/bits/stl_vector.h:2202:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(size_type, const char*) const [with _Tp = int; _Alloc = std::allocator<int>]	96	static
+/usr/include/c++/15/bits/stl_vector.h:384:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	48	static
+/usr/include/c++/15/bits/stl_vector.h:1875:2:std::vector<_Tp, _Alloc>::_Guard_alloc::_Guard_alloc(std::vector<_Tp, _Alloc>::pointer, std::vector<_Tp, _Alloc>::size_type, std::vector<_Tp, _Alloc>::_Base&) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/stl_vector.h:1880:2:std::vector<_Tp, _Alloc>::_Guard_alloc::~_Guard_alloc() [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:534:7:static std::vector<_Tp, _Alloc>::pointer std::vector<_Tp, _Alloc>::_S_relocate(pointer, pointer, pointer, _Tp_alloc_type&) [with _Tp = int; _Alloc = std::allocator<int>]	48	static
+/usr/include/c++/15/bits/stl_vector.h:2222:7:static std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_S_max_size(const _Tp_alloc_type&) [with _Tp = int; _Alloc = std::allocator<int>]	80	static
+/usr/include/c++/15/bits/stl_vector.h:152:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type&) [with _Tp = int; _Alloc = std::allocator<int>]	64	static
+/usr/include/c++/15/bits/stl_vector.h:403:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_uninitialized.h:1000:5:_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, allocator<_Tp2>&) [with _ForwardIterator = int*; _Size = long unsigned int; _Tp = int]	48	static
+/usr/include/c++/15/bits/stl_construct.h:219:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = int*]	16	static
+/usr/include/c++/15/bits/stl_bvector.h:662:7:std::_Bvector_base<_Alloc>::_Bvector_base(const allocator_type&) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:1554:7:void std::vector<bool, _Alloc>::_M_initialize(size_type) [with _Alloc = std::allocator<bool>]	96	static
+/usr/include/c++/15/bits/stl_bvector.h:1568:7:void std::vector<bool, _Alloc>::_M_initialize_value(bool) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:699:7:void std::_Bvector_base<_Alloc>::_M_deallocate() [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:1080:7:std::vector<bool, _Alloc>::const_iterator std::vector<bool, _Alloc>::end() const [with _Alloc = std::allocator<bool>]	96	static
+/usr/include/c++/15/bits/stl_bvector.h:1070:7:std::vector<bool, _Alloc>::const_iterator std::vector<bool, _Alloc>::begin() const [with _Alloc = std::allocator<bool>]	96	static
+/usr/include/c++/15/bits/stl_vector.h:105:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_Vector_impl_data() [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	16	static
+/usr/include/c++/15/bits/stl_vector.h:384:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]	48	static
+/usr/include/c++/15/bits/stl_uninitialized.h:931:5:_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = vector<int>*; _Size = long unsigned int]	48	static
+/usr/include/c++/15/bits/stl_construct.h:161:5:constexpr void std::_Destroy(_Tp*) [with _Tp = vector<int>]	32	static
+/usr/include/c++/15/bits/stl_vector.h:1128:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = int; _Alloc = std::allocator<int>]	32	static
+/usr/include/c++/15/bits/stl_algobase.h:258:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long unsigned int]	16	static
+/usr/include/c++/15/bits/stl_uninitialized.h:1353:5:_ForwardIterator std::__relocate_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = int*; _ForwardIterator = int*; _Allocator = allocator<int>]	80	static
+/usr/include/c++/15/bits/stl_uninitialized.h:931:5:_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = int*; _Size = long unsigned int]	48	static
+/usr/include/c++/15/bits/stl_bvector.h:609:2:std::_Bvector_base<_Alloc>::_Bvector_impl::_Bvector_impl(const std::_Bvector_base<_Alloc>::_Bit_alloc_type&) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:683:7:std::_Bvector_base<_Alloc>::_Bit_pointer std::_Bvector_base<_Alloc>::_M_allocate(std::size_t) [with _Alloc = std::allocator<bool>]	64	static
+/usr/include/c++/15/bits/stl_bvector.h:720:7:static constexpr std::size_t std::_Bvector_base<_Alloc>::_S_nword(std::size_t) [with _Alloc = std::allocator<bool>]	16	static
+/usr/include/c++/15/bits/stl_bvector.h:629:2:std::_Bit_type* std::_Bvector_base<_Alloc>::_Bvector_impl::_M_end_addr() const [with _Alloc = std::allocator<bool>]	16	static
+/usr/include/c++/15/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = long unsigned int]	16	static
+/usr/include/c++/15/bits/stl_bvector.h:583:2:void std::_Bvector_base<_Alloc>::_Bvector_impl_data::_M_reset() [with _Alloc = std::allocator<bool>]	96	static
+/usr/include/c++/15/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = int]	48	static
+/usr/include/c++/15/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = std::vector<int>]	48	static
+/usr/include/c++/15/bits/stl_uninitialized.h:872:9:static _ForwardIterator std::__uninitialized_default_n_1<_TrivialValueType>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = std::vector<int>*; _Size = long unsigned int; bool _TrivialValueType = false]	96	static
+/usr/include/c++/15/bits/stl_vector.h:312:7:const std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+/usr/include/c++/15/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = int]	64	static
+/usr/include/c++/15/bits/stl_uninitialized.h:1326:5:std::__enable_if_t<((bool)std::__is_bitwise_relocatable<_Tp>::value), _Tp*> std::__relocate_a_1(_Tp*, _Tp*, _Tp*, allocator<_T2>&) [with _Tp = int; _Up = int]	64	static
+/usr/include/c++/15/bits/stl_uninitialized.h:888:9:static _ForwardIterator std::__uninitialized_default_n_1<true>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = int*; _Size = long unsigned int]	128	static
+/usr/include/c++/15/bits/stl_bvector.h:557:2:std::_Bvector_base<_Alloc>::_Bvector_impl_data::_Bvector_impl_data() [with _Alloc = std::allocator<bool>]	32	static
+/usr/include/c++/15/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = long unsigned int]	48	static
+/usr/include/c++/15/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = std::vector<int>]	64	static
+/usr/include/c++/15/bits/stl_uninitialized.h:113:7:std::_UninitDestroyGuard<_ForwardIterator, void>::_UninitDestroyGuard(_ForwardIterator&) [with _ForwardIterator = std::vector<int>*]	16	static
+/usr/include/c++/15/bits/stl_uninitialized.h:118:7:std::_UninitDestroyGuard<_ForwardIterator, void>::~_UninitDestroyGuard() [with _ForwardIterator = std::vector<int>*]	32	static
+/usr/include/c++/15/bits/stl_construct.h:123:5:) [with _Tp = vector<int>; _Args = {}]	48	static
+/usr/include/c++/15/bits/stl_uninitialized.h:125:12:void std::_UninitDestroyGuard<_ForwardIterator, void>::release() [with _ForwardIterator = std::vector<int>*]	16	static
+/usr/include/c++/15/bits/stl_construct.h:123:5:) [with _Tp = int; _Args = {}]	48	static
+/usr/include/c++/15/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = long unsigned int]	64	static
+/usr/include/c++/15/bits/stl_algobase.h:897:5:void std::__fill_a1(_ForwardIterator, _ForwardIterator, const _Tp&) [with _ForwardIterator = int*; _Tp = int]	16	static
