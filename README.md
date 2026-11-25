@@ -46,12 +46,8 @@ Nashita Hasan, Katherine Tse
   - instructions and capabilites for user uploaded data files
   - algorithm comparison and evaluation
 
-## Program Strengths and Limitations
-The strengths of our program is as follows: 
-- [add strenths once final algorithm decided on]
-
+## Program Limitations
 At this time, we recognize the following limitations with our current implementation: 
-
 - The program requires that professor and student names be typed exactly the same in order to find a match. This means that if there is an extra space between a first and a last name, or if capitalization is off, the program will not flag the overlap.
 - The program does not optimize the time table. This means that the courses will be assigned to the earliest time possible which creates a morning heavy schedule.
 - The program currently only runs with a CSV file input. Other file formats are not supported.
@@ -120,3 +116,8 @@ Run:
 
 Output: see "largeOutput.csv" in the `data` for the output
 
+## External Resource Acknowledgements
+- Claude AI: Used to help debug and generate large sample datasets
+- GeeksForGeeks: Used as resources on Greedy Coloring and Backtracking algorithms
+  - Greedy Graph Coloring: [https://www.geeksforgeeks.org/dsa/graph-coloring-set-2-greedy-algorithm/](https://www.geeksforgeeks.org/dsa/graph-coloring-set-2-greedy-algorithm/)
+  - Backtracking: [https://www.geeksforgeeks.org/dsa/graph-coloring-applications/](https://www.geeksforgeeks.org/dsa/graph-coloring-applications/) 
