@@ -13,7 +13,8 @@ Nashita Hasan, Katherine Tse
   - Professor overlap checking (i.e. one professor cannot teach/hold an exam at the same time)
   - Student overlap checking (i.e. one student cannot attend two classes/exams at the same time)
   -  Room scheduling conflict checking (i.e. one room cannot hold two classes/exams at the same time)
-- **Expected Inputs**: A datafile containing Information on exams and courses that include the professor and student list; the number of available rooms and the time slot range for scheduling. 
+- **Expected Inputs**: A datafile containing Information on exams and courses that include the professor and student list
+- **Constraints**: the number of available rooms and the time slot range for scheduling. 
 - **Expected Outputs**: All courses and exams with their assigned room and time displayed neatly. 
 
 ## Current Progress
@@ -81,7 +82,7 @@ To test the differences between Greedy Coloring and Backtracking Coloring, execu
 
 To see full details, see "Section 3: Experimental Evaluation" of the [Final_Project_Iteration4_HasanTse.pdf]() in the `/docs` folder.
 
-### Experiement Results 
+### Experiment Results 
 #### Time Comparison Results 
 
 #### Memory Consumption Results 
