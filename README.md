@@ -93,6 +93,8 @@ To run the Algorithm Experiment, follow the build and run instructions and selec
 
 You should expect an output like this: 
 
+<img width="690" height="892" alt="experimentSample" src="https://github.com/user-attachments/assets/8b0df2f2-42a5-4b1a-93fd-aef62596c8cc" />
+
 ## Example Execution
 ### Small Sample Execution
 Input:
@@ -101,7 +103,7 @@ Input:
 
 Run:
 
-<img width="617" height="202" alt="sampleSession1" src="https://github.com/user-attachments/assets/cd5c34fd-42a8-4590-97b8-06c4125669a2" />
+<img width="607" height="321" alt="normalSample" src="https://github.com/user-attachments/assets/214af6f0-b552-4862-96bc-7077d8146d83" />
 
 Output:
 
@@ -112,7 +114,7 @@ Input: see "large.csv" in the `data` folder for large input data
 
 Run:
 
-<img width="606" height="220" alt="sampleSession2" src="https://github.com/user-attachments/assets/603cbdc4-cac8-4384-a5d6-36b402a4c332" />
+<img width="618" height="316" alt="largeSample" src="https://github.com/user-attachments/assets/49460b3b-55e2-4eca-93a3-41f8c002f8c2" />
 
 
 Output: see "largeOutput.csv" in the `data` for the output
