@@ -76,9 +76,13 @@ All of these datasets can be tried by selecting the corresponding item through t
 ### About the Experiment 
 To test the differences between Greedy Coloring and Backtracking Coloring, execution time and memory consumption was measured for both algorithms on three different input sizes (50 courses, 500 courses, 1000 courses).
 
+The C++ <chrono> library was used to measure the execution time of the program for each run. Overridden "new" and "delete" functions were used to gather the peak heap memory used, and a combination of tracking the number of recursive calls and the amount of stack memory reported by the g++ "-fstack-usage" flag was used to calculate the call stack memory usage. 
+
 To see full details, see "Section 3: Experimental Evaluation" of the [Final_Project_Iteration4_HasanTse.pdf]() in the `/docs` folder.
 
 ### Experiment Results 
+The outputs of the experiment run can be found in the `/algoExperiment` folder of this project. This folder includes the schedules generated from both Greedy Coloring and Backtracking for all three input sizes, and the stack usage document ("final-graph.su") generated during compile time used to calculate the stack usage for each algorithm.  
+
 #### Time Comparison Results 
 
 #### Memory Consumption Results 
